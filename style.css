@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container {
+    width: 800px;
+    height: 820px;
+    padding: 25px;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 15px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img {
+    height: 200px;
+}
+body {
+    
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.g{
+    padding: 10px;
+    margin: 10px;
+}
+.d{
+    padding: 10px;
+    margin: 10px;
+}
+.g1 {
+    height: 200px;
+}
+
+.contain {
+    height: 4px;
+    width: 170px;
+    background-color: lightblue;
+}
+.ang {
+    height: 100%;
+    width: 75%;
+    background-color: #003147;
+}
+.esp {
+    height: 100%;
+    width: 50%;
+    background-color: #003147;
+}
+.travail {
+    height: 100%;
+    width: 97%;
+    background-color: #003147;
+}
+.dyn {
+    height: 100%;
+    width: 77%;
+    background-color: #003147;
+}
+
+h5 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.gauche {
+    width: 37%;
+    height: 100%;
+}
+.droite {
+    width: 67%;
+    height: 100%;
+}
+.ens {
+    display: flex;
+}
+.ens p {
+    margin-left: 10px;
+}
+.h2 {
+    margin: 10px;
+}
+.dd {
+    margin-bottom: 20px;
+}
+
+.dev {
+    width: 85%;
+    height: 100%;
+    background-color: #003147;
+}
+.mat {
+    width: 90%;
+    height: 100%;
+    background-color: #003147;
+}
+.word {
+    width: 97%;
+    height: 100%;
+    background-color: #003147;
+}
+.power {
+    width: 90%;
+    height: 100%;
+    background-color: #003147;
+}
+.fa-facebook {
+    color: rgb(22, 114, 252);
+}
+a {
+    color: rgba(0, 53, 70, 0.87);
+    text-decoration: none;
+}
+
+@media (max-width: 600px)
+{
+    .container {
+        flex-direction: column;
+        height: 820px;
+    }
+}
+@media (max-width: 580px)
+{
+    .container {
+        flex-direction: column;
+        height: 820px;
+    }
+}
+@media (max-width: 520px)
+{
+    .container {
+        flex-direction: column;
+        height: 850px;
+    }
+}
+@media (max-width: 505px)
+{
+    .container {
+        flex-direction: column;
+        height: 875px;
+    }
+}
+@media (max-width: 390px)
+{
+    .container {
+        flex-direction: column;
+        height: 900px;
+    }
+}
+@media (max-width: 385px)
+{
+    .container {
+        flex-direction: column;
+        height: 920px;
+    }
+}
+@media (max-width: 382px)
+{
+    .container {
+        flex-direction: column;
+        height: 970px;
+    }
+}
